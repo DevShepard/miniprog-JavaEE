@@ -7,12 +7,9 @@ Page({
   bindtest: function () {
     
     wx.request({
-      url: 'http://localhost:8080/travel/register',  //本地服务器地址
+      url: 'http://localhost:8080/testServlet/test',  //本地服务器地址
       data: {
         username: this.data.userName
-        //password: '123456',
-        //local: 'zzzzzzz',
-        //telephone: 'zzzzzzz',
       },
       method: 'GET',
       header: {
@@ -22,7 +19,7 @@ Page({
         console.log(res.data);
       },
       fail: function (res) {
-        console.log("失败");
+        console.log("fail");
       }
     })
   }
