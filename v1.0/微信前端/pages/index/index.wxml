@@ -1,0 +1,8 @@
+<view>
+    <button bindtap='bindtest'>action</button>
+</view>
+<view class="itemView">姓名：
+    <input class="input" name="userName" placeholder="请输入用户名" 
+    bindinput="userNameInput"/>
+  </view>
+  
