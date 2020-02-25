@@ -5,7 +5,7 @@
            2.微信开发者工具
 ## 组件:
            apache-tomcat-8.6.5
-## java模板:
+## 模板:
            Web Application
 ## 版本:
            v1.0 微信小程序访问JAVA后端(base)
