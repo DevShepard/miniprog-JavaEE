@@ -1,0 +1,7 @@
+<view>
+    <button bindtap='bindtest'>action</button>
+</view>
+<view class="itemView">test_text：
+    <input class="input" name="userName" placeholder="enter" 
+    bindinput="userNameInput"/>
+  </view>
