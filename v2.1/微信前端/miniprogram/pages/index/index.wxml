@@ -1,0 +1,8 @@
+<view class='container'>
+    <text>昵称
+    </text>
+<input class="weui-input" type="string" name="userName" placeholder="enter" maxlength="8" bindinput="userNameInput"/>
+</view>
+  <view>
+    <button bindtap='bindtest'>确认提交</button>
+</view>
