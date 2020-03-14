@@ -24,7 +24,7 @@
            v2.1 更新云函数request解决服务器接收数据异步与延迟问题
            
 ## 注意事项:
-           --所有版本版本云函数使用需要手动加载node.js相关组件,可以手动进行下载(npm install request和npm install wx-server-apk) 
+           --所有版本版本云函数使用需要手动加载node.js相关组件,可以手动进行下载(npm install request和npm install wx-server-sdk) 
              亦可使用微信云端安装依赖
            --2.0及以下版本不可实现与云服务器交互,2.0版本可与云服务器交互且测试成功
            --2.0版本已申请SSL证书因此只兼容https协议,未申请SSL证书请自行搭建服务器申请
